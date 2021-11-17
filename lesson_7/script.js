@@ -5,7 +5,7 @@ const week = [
     ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье']
 ];
 
-let personName = prompt('Напишите Ваше имя:');
+const personName = prompt('Напишите Ваше имя:');
 
 personName === 'Артём' ? (
     console.log('директор')
@@ -16,9 +16,9 @@ personName === 'Артём' ? (
         console.log('студент')
     )
 )
-var now = new Date();
+const now = new Date();
 
-let lang = prompt('Какой язык вы хотите поставить?(ru/en)');
+const lang = prompt('Какой язык вы хотите поставить?(ru/en)');
 if (lang === 'en') {
     for (let i = 0; i < week.length - 1; i++) {
         for (let j = 0; j < 7; j++) {
